@@ -1,0 +1,171 @@
+#UsernameAccueil {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.nav-link-custom {
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    padding: 8px 15px !important;
+    border-radius: 5px !important;
+    transition: 0.3s !important;
+}
+
+.nav-link-custom.connexion {
+    background-color: #3498db !important;
+    color: white !important;
+}
+
+.nav-link-custom.deconnexion {
+    background-color: #e74c3c !important;
+    color: white !important;
+}
+
+.nav-link-custom:hover {
+    opacity: 0.8 !important;
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+body {
+    background-color: #1c2833 !important;
+}
+
+.container {
+    flex-grow: 1; /* Cela permet à la section principale de prendre toute la place restante */
+}
+
+#rdvAVenir {
+    margin-top: 20px;
+}
+ h1 {
+    color: #fff !important;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #fff !important;
+    margin-top: 40px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+#btn-Ajouter {
+    background-color: #1595cf;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+#btn-Ajouter:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateX(-2px);
+}
+#btn-Ajouter:active {
+    transform: translateX(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+     width: 100%; 
+     border-collapse: collapse; 
+     font-family: 'Poppins', sans-serif;
+}
+th, td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left;
+}
+
+/* ======== INDEX ===============*/
+#Body-index { 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/clock.jpg'); /*Remplace par le chemin de ton image */
+    background-size: cover; /*L'image couvre toute la page */
+    background-position: center; /*Centre l'image*/
+    background-repeat: no-repeat; /*Empêche la répétition de l'image */
+    height: 100vh; /* S'assure que le body occupe toute la hauteur de la page */
+}
+.centered {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* 100% de la hauteur de l'écran */
+}
+
+#btn-index {
+    background-color: #1595cf;
+    color: #fff !important;
+    transition: all 0.3s ease;
+}
+
+#btn-index:hover {
+    background-color: #fff;
+    color: #000 !important;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateX(-2px);
+}
+#btn-index:active {
+    transform: translateX(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ====FIN INDEX====== */
+
+
+
+.footer {
+    background-color: #1595cf;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    margin-top: auto; /* Le footer sera poussé vers le bas */
+}
+
+
+
+/* ============ CONNEXION_FORM CSS ============ */
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.text-center a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
